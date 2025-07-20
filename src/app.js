@@ -14,7 +14,7 @@ app.use(express.json());
 
 const allowedOrigins = [
     'http://localhost:5173', // For local frontend development
-    'https://your-frontend-app.netlify.app' // Replace with your actual deployed Netlify frontend URL
+    'https://bam-system.vercel.app' // Replace with your actual deployed Netlify frontend URL
 ];
 
 const corsOptions = {
